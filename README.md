@@ -8,6 +8,7 @@ Negative
 
 Ngoài ra, ứng dụng hỗ trợ phân tích hàng loạt, lưu lịch sử phân tích vào SQLite và hiển thị biểu đồ thống kê cảm xúc.
 Tính năng chính
+
 🔹 1. Phân loại cảm xúc theo câu
 Nhập câu tiếng Việt → Trả kết quả ngay.
 Hỗ trợ cả câu có dấu, không dấu, teencode.
@@ -28,6 +29,7 @@ Biểu đồ tròn (pie chart).
 🔹 6. Tuỳ chọn mô hình Transformer
 nlptown/bert-base-multilingual-uncased-sentiment
 distilbert-base-multilingual-cased
+
 Cấu trúc dự án
 viet_sentiment_app/
 │
@@ -39,6 +41,7 @@ viet_sentiment_app/
 ├── history.db              # CSDL lưu lịch sử phân tích
 ├── requirements.txt        # Danh sách thư viện
 └── README.md               # Tài liệu dự án
+
 Cài đặt & Chạy ứng dụng
 📌 1. Clone repo
 git clone https://github.com/<your-account>/<your-repo>.git
@@ -50,6 +53,7 @@ venv\Scripts\activate
 pip install -r requirements.txt
 4. Chạy ứng dụng
 streamlit run app.py
+
 Ứng dụng sẽ chạy tại:
 👉 http://localhost:8501
 Mô hình AI được sử dụng
