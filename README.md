@@ -5,6 +5,7 @@ Dự án này xây dựng một ứng dụng phân loại cảm xúc tiếng Vi�
 Positive
 Neutral
 Negative
+
 Ngoài ra, ứng dụng hỗ trợ phân tích hàng loạt, lưu lịch sử phân tích vào SQLite và hiển thị biểu đồ thống kê cảm xúc.
 Tính năng chính
 🔹 1. Phân loại cảm xúc theo câu
